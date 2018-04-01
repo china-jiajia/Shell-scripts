@@ -1,0 +1,68 @@
+
+1.minimap 	
+
+2.emmet 		#HTML快速补全语法格式  	control + e
+
+	快速在光标当前行上面或下面开始新的一行
+		cmd + p --->#body(井号快速的配置到要找的内容)------>cmd + enter(快速开启下一行)
+		cmd + p --->#body(井号快速的配置到要找的内容)------>control + shift + enter(快速开启上一行)
+		
+	ul>.item$*10		#快速编写十个相同的class行control + e
+		.点号代表class
+		$代表一个序号
+		*10代表有十个相同的内容
+		
+		添加缩进: 选中要缩进的内容 control + {\}(左大括号向左添加缩进,右大括号向右添加缩进)
+	
+		相同内容的全选: 先使用鼠标选住单个内容----->option(alt)+F3(这个时候就会选住全部相同的内容了)
+		
+		cmd + d 	#进入多点编辑
+		
+		
+3.Sublime粘贴复制:
+	原始粘贴:cmd + v(这种不能保证被粘贴内容原始格式)
+	新的粘贴:cmd + shift + v(这种能保证被粘贴内容的,原始格式包括缩进)
+	
+	
+
+4.Sulimbe代码风格样式:
+	shift + cmd + p		#安装插件
+		theme-soda
+		theme-spacefunk
+		theme-spacegray
+		
+		
+	
+5.Sinppets模板方式编程:
+		tab 键可以快速的跳转到下一行进行编辑
+		insert callback
+	
+	
+6.辅助技巧:
+		advanceNewfile
+			option(alt) + cmd + n
+			option(alt) + cmd + n ------->public/css/test.css 		#路劲创建文件(创建的路径不存在会自动的创建对应的目录)
+		
+		httpRequest
+			shift + cmd + p -----> http Requester
+				option(alt)+control(ctrl)+R 		#开启httpsRequest测试(//localhost:3000/users/)
+				
+		nettus fetch(用于类库的更新、管理、下载):
+			shift + cmd + p -----> nettuts+ Fetch
+			shift + cmd + p -----> Fetch:Manage  	#管理配置文件
+				
+				
+		sidebarenhancement:
+			web页面打开404文件或者其他调试web界面
+			
+		
+7.快速添加注释:
+		docblockr：
+			/* 	(tab键会自动补全;在js文件格式下)
+			
+			
+8.lint进行语言及风格校验(sublime当中对各种语言的lint是有不同插件的):
+		sublimelinter:
+			sublimelinter-jshint		#js的lint
+
+			

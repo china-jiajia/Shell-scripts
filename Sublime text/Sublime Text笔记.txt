@@ -1,0 +1,235 @@
+
+指定文件类型:
+	cmd + n(新建文件)-------->shift + cmd + p(在command Palette;输入要指定的文件类型)------->
+	在sublime文件的右下角会显示文件的类型名称
+
+一、Happypeter信息
+happypeter
+http://happypeter.github.io/index.html
+
+
+Sublime HappySublime
+http://happypeter.github.io/happysublime/
+
+github: happypeter(项目名称)
+
+install package Control: https://packagecontrol.io 
+
+sublime GitHub项目地址:
+	https://github.com/happypeter/sublime-config
+	
+	新建指定类型文件: 快捷键 + 
+
+
+二、Sublime text3笔记
+1.编辑点
+	按住command键+鼠标点击选择多个地方可以一起同时进行增删功能
+	
+2.快速查找文件
+	command+p
+	
+3.install package 
+	shift + command + p 
+	
+4.软连接subl命令快捷方式	
+cd /bin
+
+sudo ln -sv /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl subl
+
+
+5.存放用户所有的自定义信息
+cd Library/Application\ Support/Sublime\ Text\ 3/Packages/User 
+
+
+打开项目-截图
+
+
+6.字体放大缩小- command ++或者command --
+
+
+7.保存快捷键:
+		shift + command + p---->输入"KeyBinding"----->选择"KeyBindings"
+		
+		
+		CMD + N    			#打开一个新的页面
+		ctrl +	tab			#页面切换
+		cmd + j 			#合并两行
+		cmd + ] 			#缩进一个级别
+		cmd + [				#向后退回一个级别
+		cmd + l 			#选择当前行
+		cmd + c 			#拷贝
+		cmd + v 			#粘贴
+		cmd + 回车			#开始新的一行"向下"
+		cmd + shift + 回车	#开始新的一行"向上"
+		cmd + z 			#撤销操作
+		cmd  + option + 鼠标左键 	#块选删除
+		Ctrl+/ 				#注释单行
+		Ctrl+Shift+/ 		#注释多行
+		Ctrl+K+U 			#转换大写
+		Ctrl+K+L 			#转换小写
+		F11 				#全屏模式
+		control + ` 		#打开工作台
+		shift+tab 			#缩进
+		cmd + w 			#关闭页面
+
+		  - Cmd-n 开一个新页面
+		  - Ctrl-tab 切换页面
+		  - Cmd-j 合并一行
+		  - Cmd-d 选中当前单词，继续敲可以选中多个
+		  - Cmd-/ 注释掉/取消注释
+		  - Ctrl-]/[ 缩进
+		  - Ctrl-L 选择当前行
+		  - Ctrl-enter/Shift-Ctrl-enter 当前行之前或之后开辟一行
+		  - Ctrl+Z 撤销
+		  - 列选择，按住 Option 键，用鼠标左键拖动。
+
+		
+		粒度:
+			option(alt) 	#整个单词跳跃
+			command 		#整行的跳跃
+			
+			cmd + shift + 左方向键			#从光标位置选择到行首
+			option + shift + 左方向键			#选择单个单词
+			command + shift + 上方向键 		#向上选择
+			command + shift + 下方向键 		#向下选择
+			
+		缩进对齐:
+			shift + command + p------->输入"Reindent Lines"
+			
+		创建多个标签页:
+			Alt+cmd(Shift)+1 窗口分屏，恢复默认1屏（非小键盘的数字）
+			Alt+cmd(Shift)+2 左右分屏-2列
+			Alt+cmd(Shift)+3 左右分屏-3列
+			Alt+cmd(Shift)+4 左右分屏-4列
+			Alt+cmd(Shift)+5 等分4屏
+			Alt+cmd(Shift)+8 垂直分屏-2屏
+			Alt+cmd(Shift)+9 垂直分屏-3屏
+
+		
+8.配置文件目录:
+	/Users/jiajia/Library/Application Support/Sublime Text 3/Packages/User
+	
+		
+
+9.全局配置:
+		(1).shift + command + p ----> settings------->cmd + f(打开搜索)
+		
+// Additional spacing at the top of each line, in pixels
+"line_padding_top": 0,
+
+// Additional spacing at the bottom of each line, in pixels
+"line_padding_bottom": 0,
+
+	#以上两个配置选项放入User的配置选项当中,后面0改为7
+
+
+
+10.Sublime Text的插件包目录:
+	/Applications/Sublime Text.app/Contents/MacOS/Packages
+	
+
+11.Sublime安装包文档地址:
+	https://packagecontrol.io/installation
+	
+	control + ` 		#打开工作台	
+	
+	#粘贴回车运行
+import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+
+
+
+12.安装包
+		(1).shift + command + p ----->install packages----->railscasts Colur Scheme(颜色包安装)
+		
+		(2).shift + command + p ----->install packages----->advancedNewFile
+			.option + cmd + N 			#新建一个目录
+			app/views/comments/show.html.erb 	#可以支持补齐
+			 
+		
+		(3).shift + command + p ----->install packages----->git
+			.shift + command + p ----->git add Current File---->git commit---->git push
+			
+			
+		(4).shift + command + p ----->install packages----->SyncedSideBarBg			#每次打开新的文件侧边栏都会显示文件的具体位置
+
+
+
+13.快捷键设置:
+
+[
+    {
+    "keys":["f5"],
+    "caption":"SublimeREPL: Python - RUN current file",
+    "command": "run_existing_window_command","args":{"id": "repl_python_run","file": "config/Python/Main.sublime-menu"}
+    },
+    {"keys": ["super+e"], "command": "toggle_side_bar"}
+]
+
+
+[
+    {"keys": ["f1"],"command": "toggle_side_bar"},//隐藏侧边栏
+    {"keys": ["ctrl+b"],"command": "open_in_browser"},//打开在相应应用
+    {"keys": ["ctrl+shift+f"],"command": "reindent"},//代码格式化
+]
+	
+	
+14.快速查找文件或字符串:
+		菜单栏(goto Anything) cmd + p  			#快速搜索
+			.搜索到文件之后也可以以:文件名+冒号+行号 打开的时候光标就会停留在打开文件的第多少行
+			.搜索到文件之后也可以以:文件名+@
+			.搜索到文件之后也可以以:文件名+#后面给查找的字符串
+			
+		shift + command + p ----->install packages----->sass
+		
+		.本文件内查找:
+			cmd + F  
+			option + cmd + F #查找替换
+			cmd + d  		#选中要编辑的单词,进入多点编辑模式
+			
+		.folder查找(鼠标右键find folder):
+			
+			
+		.跳回原先编辑的文件
+			control + - (减号)
+			control + shift + - (减号)  	#会跳过头了
+			
+		
+			
+15.web开发者必备插件emmet(emmet.io):
+		docs.emmet.io/cheat-sheet/ 		#参照手册
+		shift + command + p ----->install packages----->emmet 
+		
+		
+16.自定义代码片段:
+		jekyllcn.com/docs/frontmatter/ 			#参照地址
+		sinppet 截图
+		
+	
+		Scope:
+			docs.sublimetext.info/en/latest/extensibility/snippet.html?highight=scope
+			option + cmd + p		#获取相应文件的Scope
+			
+
+17.代码补全:
+		docs.sublimetext.info/en/latest/extensibility/completions.html#sources-for-completins-and-their-priorities
+			.shift + command + p----->settings------->Preferences.sublime-settings User
+				"auto_complete_commit_on_tab":true,			#填写入如下内容(这样就是使用tab键进行补齐,enter键就是回车)
+				
+		SublimelimeCodeIntel：
+			sublimecodeintel.github.io/SublimeCodelnet/
+			
+			
+18.批处理任务:
+	http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/build_systems.html/configuration.html 
+	http://sublime-text-unofficial-documentation.readthedocs.io/en/latest/reference/build_systems.html
+	browse截图:
+
+browse.sublime-build
+
+{
+	"cmd":["/Applications/Google Chrome.app/Contents/MacOS/Google Chrome","$file"]
+}
+
+
+
+
