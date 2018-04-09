@@ -1,0 +1,9 @@
+
+
+#统计当前目录下面的文件夹
+count=`ls -l|grep "^d"|wc -l`
+
+if [ $count -gt $number ];then
+	#写入删除日志
+	echo "delete 我要删除的数据" >>$backup_dir/log.txt
+fi
